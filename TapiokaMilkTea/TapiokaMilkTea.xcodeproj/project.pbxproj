@@ -16,6 +16,7 @@
 		68DC40F72573991B007295A4 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC40F42573991B007295A4 /* Data.swift */; };
 		68DC40F82573991B007295A4 /* orderEntity.json in Resources */ = {isa = PBXBuildFile; fileRef = 68DC40F52573991B007295A4 /* orderEntity.json */; };
 		68DC40F92573991B007295A4 /* OrderEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC40F62573991B007295A4 /* OrderEntity.swift */; };
+		68DC40FD257399B8007295A4 /* OrderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC40FC257399B8007295A4 /* OrderDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		68DC40F42573991B007295A4 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		68DC40F52573991B007295A4 /* orderEntity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = orderEntity.json; sourceTree = "<group>"; };
 		68DC40F62573991B007295A4 /* OrderEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderEntity.swift; sourceTree = "<group>"; };
+		68DC40FC257399B8007295A4 /* OrderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +66,8 @@
 			children = (
 				68DC40F32573990B007295A4 /* Data */,
 				68DC40DE257397FD007295A4 /* AppDelegate.swift */,
+				68DC40FB2573997D007295A4 /* Scene */,
 				68DC40E0257397FD007295A4 /* SceneDelegate.swift */,
-				68DC40E2257397FD007295A4 /* ContentView.swift */,
 				68DC40E4257397FF007295A4 /* Assets.xcassets */,
 				68DC40E9257397FF007295A4 /* LaunchScreen.storyboard */,
 				68DC40EC257397FF007295A4 /* Info.plist */,
@@ -90,6 +92,15 @@
 				68DC40F62573991B007295A4 /* OrderEntity.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		68DC40FB2573997D007295A4 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				68DC40E2257397FD007295A4 /* ContentView.swift */,
+				68DC40FC257399B8007295A4 /* OrderDetailView.swift */,
+			);
+			path = Scene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +177,7 @@
 				68DC40DF257397FD007295A4 /* AppDelegate.swift in Sources */,
 				68DC40E1257397FD007295A4 /* SceneDelegate.swift in Sources */,
 				68DC40E3257397FD007295A4 /* ContentView.swift in Sources */,
+				68DC40FD257399B8007295A4 /* OrderDetailView.swift in Sources */,
 				68DC40F92573991B007295A4 /* OrderEntity.swift in Sources */,
 				68DC40F72573991B007295A4 /* Data.swift in Sources */,
 			);
